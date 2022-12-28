@@ -48,7 +48,7 @@ def wish():
     hour =int(datetime.datetime.now().hour)
     tt = time.strftime("%I:%M %p")
     if hour>=0 and hour<=12:
-        speak(f"Good Morning Mr Brighton Chifetete, its {tt}")
+        speak(f"Good morning Mr Brighton Chifetete, its {tt}")
     elif hour>=12 and hour<18:
         speak(f"Yo what's up Mr Brighton Chifetete, its {tt}")
     else:
